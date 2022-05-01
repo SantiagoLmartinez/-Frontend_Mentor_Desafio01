@@ -63,8 +63,11 @@ body{
     font-weight: 400;
 }
 
-@media (max-width: 450px) { 
+@media (max-width: 500px) { 
+    .container{
+        margin-top: 3rem;
+    }
     .qr-container{
-        width: 90%
+        width: 70%
     }
 }
